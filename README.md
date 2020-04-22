@@ -66,8 +66,10 @@ This is a normal paragraph:
 end code block.
 
 코드블럭1
+```
 * <pre><code>{code}</code></pre> 이용방식
 * 코드블럭코드("```") 을 이용하는 방법
+```
 <pre><code>
 ```
 public class BootSpringBootApplication {
@@ -124,11 +126,11 @@ _single underscores_
 __double underscores__
 ~~cancelline~~
 ```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
+*single asterisks*   
+_single underscores_   
+**double asterisks**   
+__double underscores__   
+~~cancelline~~   
 
 7.링크
 ------
@@ -140,8 +142,8 @@ __double underscores__
 Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 ```
-Link: [Google][googlelink]
-[googlelink]: https://google.com "Go google"
+Link: Google googlelink   
+googlelink: https://google.com "Go google"   
 
 * 외부링크
 ```
