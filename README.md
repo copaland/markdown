@@ -149,18 +149,8 @@ __double underscores__
 * 외부링크: <http://example.com/>
 * 이메일링크: <address@example.com>
 ```
-* 외부링크: <http://example.com/>
-* 이메일링크: <address@example.com>
-
-* 참조링크
-```
-[link keyword][id]
-[id]: URL "Optional Title here"
-// code
-link [Google][googlelink]
-[googlelink]: https://google.com "Go google"
-```  
-[link Google] https://google.com "Go google"   
+외부링크: <http://example.com/>
+이메일링크: <address@example.com>
 
 8.이미지
 --------
