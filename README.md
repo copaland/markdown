@@ -139,18 +139,17 @@ __double underscores__
 [link keyword][id]
 [id]: URL "Optional Title here"
 // code
-Link: [Google][googlelink]
+link [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 ```
-Link: Google googlelink   
-googlelink: https://google.com "Go google"   
+[link Google][googlelink]  
+[googlelink]: https://google.com "Go google"   
 
 * 외부링크
 ```
 사용문법: [Title](link)
 적용예: [Google](https://google.com, "google link")
 ```
-사용문법: [Title](link)
 적용예: [Google](https://google.com, "google link")
 
 * 자동연결
