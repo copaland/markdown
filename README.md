@@ -51,8 +51,18 @@ This is an H2
 ```
 * 빨강
   + 녹색
-    - 파랑
-    
+    - 파랑   
+
+작업 목록
+```
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+```
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+
 4.코드
 ------
 4개의 공백 또는 하나의 탭으로 들여쓰기
@@ -116,21 +126,18 @@ public class BootSpringBootApplication {
 - - -
 ---------------------------------------
 
-6.강조
-------
+6.텍스트 스타일
+---------------
+굵게, 기울임 꼴 또는 취소 선으로 강조 표시
+
 문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용
-```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
-```
-*single asterisks*   
-_single underscores_   
-**double asterisks**   
-__double underscores__   
-~~cancelline~~   
+
+| Style | Syntax | Example |Output |
+|:--------------|:----------------|:---------------------|:---------------------|
+| Bold |``` ** ** or __ __ ```|``` **double asterisks** ```| **double asterisks** |
+| Italic | ``` * * or _ _ ``` |``` *single asterisks* ```| *single asterisks* |
+| Strikethrough | ``` ~~ ~~ ``` | ``` ~~cancelline~~ ``` | ~~cancelline~~|
+| Bold & italic | ``` *** *** ``` |``` ***three asterisks*** ``` | ***three asterisks***|
 
 7.링크
 ------
@@ -180,5 +187,3 @@ Enter를 두번 입력하면 됩니다.
 문단을 구분하려면 
 
 Enter를 두번 입력하면 됩니다.
-
-
