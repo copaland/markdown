@@ -163,14 +163,15 @@ __double underscores__
 <img src="https://kikiapps.netlify.app/image/tgg.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Korea Flag"></img><br/>
 <img src="https://kikiapps.netlify.app/image/tgg.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="Korea Flag"></img>
 
-9.줄바꿈
---------
-* 줄 바꿈을 하기 위해서는 문장 마지막에서 Space 2칸을 띄어쓰기해야 한다. 
+9.줄바꿈 & 문단 구분
+---------------------
+* 줄 바꿈을 하기 위해서는 문장 마지막에서 Space 2칸을 띄우고 Enter해야 한다. 
 ```
-문장 마지막에서  Space 2칸을 띄어쓰기해야 한다.  \\이렇게
+문장 마지막에서  Space 2칸을 띄어쓰기해야 한다.  (<-2 Space)
+이렇게
 ```
-문장 마지막에서  Space 2칸을 띄어쓰기해야 한다.  \\이렇게
-
+문장 마지막에서  Space 2칸을 띄어쓰기하고 Enter해야 한다.  
+이렇게
 ```
 문단을 구분하려면
 
