@@ -2,7 +2,6 @@
 
 1.헤더Headers
 -------------
-
 This is an H2
 -------------
 ```
@@ -164,11 +163,12 @@ public class BootSpringBootApplication {
 ```      
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
-<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-<img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
+<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Korea Flag"></img><br/>
+<img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="Korea Flag-s"></img>
 ```
 <img src="https://kikiapps.netlify.app/image/tgg.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Korea Flag"></img><br/>
-<img src="https://kikiapps.netlify.app/image/tgg.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="Korea Flag"></img>
+<img src="https://kikiapps.netlify.app/image/tgg.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="Korea Flag-s"></img>
 
 9.줄바꿈 & 문단 구분
 ---------------------
