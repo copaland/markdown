@@ -64,14 +64,14 @@ This is an H2
 
 4.코드
 ------
-4개의 공백 또는 하나의 탭으로 들여쓰기
+문장 끝에서 4개의 공백 또는 하나의 탭으로 줄바꿈
 ```
 This is a normal paragraph:
     This is a code block.
 end code block.
 ```
 This is a normal paragraph:    
-  This is a code block.    
+This is a code block.    
 end code block.
 
 코드블럭1
