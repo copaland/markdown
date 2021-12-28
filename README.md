@@ -35,7 +35,28 @@ This is an H2
 ```
 > This is a first blockqute.
 >	> This is a second blockqute.
->	>	> This is a third blockqute.
+>	>	> This is a third blockqute.  
+
+```
+> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 주의:** 이 구문은 마크다운 인용구 문법 입니다.
+
+> *<i class="fa fa-info-circle" aria-hidden="true"></i> 정보:* 이 구문은 마크다운 인용구 문법 입니다.
+
+> **<i class="fa fa-question-circle"></i> 질문:** 이 구문은 마크다운 문의사항 입니다. 
+```
+> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 주의:** 이 구문은 마크다운 인용구 문법 입니다.
+
+> *<i class="fa fa-info-circle" aria-hidden="true"></i> 정보:* 이 구문은 마크다운 인용구 문법 입니다.
+
+> **<i class="fa fa-question-circle"></i> 질문:** > 이 구문은 마크다운 문의사항 입니다. 
+```
+[[TIP]]
+도움말이나 팁을 설명하는 블록을 작성할 수 있습니다.
+[[/TIP]]
+```
+[[TIP]]
+도움말이나 팁을 설명하는 블록을 작성할 수 있습니다.
+[[/TIP]]
 
 3.목록
 ------
@@ -144,6 +165,13 @@ public class BootSpringBootApplication {
 | Strikethrough | ``` ~~ ~~ ``` | ``` ~~cancelline~~ ``` | ~~cancelline~~|
 | Bold & italic | ``` *** *** ``` |``` ***three asterisks*** ``` | ***three asterisks***|
 
+윗첨자는 ^ string ^  아랫첨자는 ~ string ~  으로 작성하고,  
+
+Github 등 호환이 안될 경우가 많은데,  
+이럴때는 HTML tag 인 <sup>, <sub> 를 쓰면 됩니다.  
+
+<sub>sub</sub> string <sup>sup</sup>  
+  
 7.링크
 ------
 
@@ -193,3 +221,11 @@ Enter를 두번 입력하면 됩니다.
 문단을 구분하려면 
 
 Enter를 두번 입력하면 됩니다.
+
+10. 문서 내 목차 (Table Of Contents)
+문서 내에 사용된 헤딩태그들을 이용하여 [TOC] 입력 시 그 부분에 목차가 자동으로 생성됩니다.
+
+작성예:
+```
+[TOC]
+```  
