@@ -37,14 +37,6 @@ This is an H2
 >	> This is a second blockqute.
 >	>	> This is a third blockqute.  
 
-```
-[TIP]
-도움말이나 팁을 설명하는 블록을 작성할 수 있습니다.
-[/TIP]
-```
-[TIP]
-도움말이나 팁을 설명하는 블록을 작성할 수 있습니다.
-[/TIP]
 
 3.목록
 ------
@@ -156,9 +148,12 @@ public class BootSpringBootApplication {
 윗첨자는 ^ string ^  아랫첨자는 ~ string ~  으로 작성하고,  
 
 Github 등 호환이 안될 경우가 많은데,  
-이럴때는 HTML tag 인 <sup>, <sub> 를 쓰면 됩니다.  
+이럴때는 HTML tag 인 sup, sub 를 쓰면 됩니다.  
+```
+ <sub>아래자</sub> 문자 <sup>위첨자</sup>  
+```
 
-<sub>sub</sub> string <sup>sup</sup>  
+<sub>아래자</sub> 문자 <sup>위첨자</sup>    
   
 7.링크
 ------
