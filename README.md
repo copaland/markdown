@@ -38,25 +38,13 @@ This is an H2
 >	>	> This is a third blockqute.  
 
 ```
-> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 주의:** 이 구문은 마크다운 인용구 문법 입니다.
-
-> *<i class="fa fa-info-circle" aria-hidden="true"></i> 정보:* 이 구문은 마크다운 인용구 문법 입니다.
-
-> **<i class="fa fa-question-circle"></i> 질문:** 이 구문은 마크다운 문의사항 입니다. 
-```
-> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 주의:** 이 구문은 마크다운 인용구 문법 입니다.
-
-> *<i class="fa fa-info-circle" aria-hidden="true"></i> 정보:* 이 구문은 마크다운 인용구 문법 입니다.
-
-> **<i class="fa fa-question-circle"></i> 질문:** > 이 구문은 마크다운 문의사항 입니다. 
-```
-[[TIP]]
+[TIP]
 도움말이나 팁을 설명하는 블록을 작성할 수 있습니다.
-[[/TIP]]
+[/TIP]
 ```
-[[TIP]]
+[TIP]
 도움말이나 팁을 설명하는 블록을 작성할 수 있습니다.
-[[/TIP]]
+[/TIP]
 
 3.목록
 ------
